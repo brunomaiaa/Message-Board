@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    display:flex;
+    justify-content:center;
+}
+
+.nes-octocat {
+    margin-right:2rem;
+}
+
+.nes-container {
+    margin-top:5%;
+    height:fit-content;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    margin:5% 10%;
+}
+
+#btn-send {
+    margin-top:1rem;
+}
+#btn-load {
+    margin-top:1rem;
+}

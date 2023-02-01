@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="module" src="/js/index.js"></script>
+</head>
+<body>
+ <header>
+    <!-- octocat -->
+<i class="nes-octocat animate"></i>
+  <h1>Messageboard</h1>
+ </header>
+
+ <div class="content">
+   <div class="nes-field">
+       <label for="input-name">Your Name</label>
+       <input id="input-name" type="text" class="nes-input">
+   </div>
+
+   <label for="input-content">Your Message</label>
+   <textarea id="input-content" class="nes-textarea"></textarea>
+
+    <button id="btn-send" type="button" class="nes-btn is-primary">Send Message</button>
+
+    <button id="btn-load" type="button" class="nes-btn is-success">Load Messages</button>
+    <section class="nes-container">
+      <section class="message-list">      
+        <section class="message -right">
+          <!-- Balloon -->
+          <div class="nes-balloon from-right">
+            
+          </div>
+          <!-- <i class="nes-bcrikko"></i> -->
+        </section>
+      </section>
+    </section>
+ 
+ </div>
+
+ <!-- Dialog -->
+<section>
+  <dialog class="nes-dialog" id="dialog-default">
+    <form method="dialog">
+      <p class="title">No Name</p>
+      <p>I don't have a name please provide a name</p>
+      <div class="nes-field">
+          <label for="nameprovided">Your name</label>
+          <input type="text" id="nameprovided" class="nes-input">
+      </div>
+        
+      <menu class="dialog-menu">
+        <button class="nes-btn">Cancel</button>
+        <button class="nes-btn is-primary" id="btn-confirm">Confirm</button>
+      </menu>
+    </form>
+  </dialog>
+</section>
+
+</body>
+</html>
