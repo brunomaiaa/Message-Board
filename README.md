@@ -1,4 +1,4 @@
-# Message-BoardMessageboard
+# Message-Board
 ============
 
 A simple message board application that allows users to post and view messages. The messages are fetched from an API and displayed in text balloons. The user's name is stored locally in the browser using local storage.
